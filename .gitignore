@@ -1,0 +1,43 @@
+# セキュリティ：絶対にあげない
+.env
+credentials.json
+*.db
+
+# 実行環境・一時ファイル
+__pycache__/
+logs/*.log
+assets/charts/*.png
+assets/portfolio_globe.html
+
+# ローカルデータ
+data/inputs/
+data/outputs/
+data/system/window_config.json
+data/system/ticker_map.json
+data/system/country_config.json
+
+# バックアップ
+*.xlsx
+_Backups/
+
+# ETF Analyze Project Specific
+*.pdf
+deploy_tool.py
+run_deploy_tool.bat
+check_db.py
+seed_db.py
+system_test.py
+check_whitespace.py
+debug_search.py
+debug_output.txt
+pdf_content.txt
+
+# Editor / IDE
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Others
+*.exe
